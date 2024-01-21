@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "a34951e1-a320-4887-9010-30dbec59f615",
+		"name": "lattice-backend-assign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24588014",
+		"_collection_link": "https://bold-zodiac-390783.postman.co/workspace/New-Team-Workspace~81022755-2953-47fe-a570-dfeb396f4a73/collection/24588014-a34951e1-a320-4887-9010-30dbec59f615?action=share&source=collection_link&creator=24588014"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/api/hospital",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hospitalId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/hospital",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hospital"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"santosh\",\r\n    \"address\": \"iit market powai\",\r\n    \"email\":\"san@gmail.com\",\r\n    \"phone\":\"1233988999\",\r\n    \"password\": \"Santosh76@\",\r\n    \"photo\": \"afkdskfldskf\",\r\n    \"psychiatristId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
