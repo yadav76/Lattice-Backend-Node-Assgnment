@@ -85,9 +85,9 @@ List of major libraries/frameworks used in the project:
 
 ## Environment Variables
 
-Make sure to change MYSQL_USERNAME, MYSQL_PASSWORD and MYSQL_DATABASE name in .env file to run the app successfully.
+Make sure to create .env file and add below enviornment variables in .env file to run the app successfully.
 
-    PORT: Port on which the server will run.
+    Port: Port on which the server will run.
 
     MYSQL_USERNAME = Mysql Username
     MYSQL_PASSWORD = Mysql Password
